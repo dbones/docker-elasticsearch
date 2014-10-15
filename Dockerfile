@@ -8,9 +8,9 @@ RUN \
   mv /tmp/elasticsearch-1.3.4 /opt/elasticsearch
 
 RUN /opt/elasticsearch/bin/plugin -v -i elasticsearch/marvel/1.2.1
+RUN /opt/elasticsearch/bin/plugin -v -i lmenezes/elasticsearch-kopf/1.3.5
 RUN /opt/elasticsearch/bin/plugin -v -i mobz/elasticsearch-head
 RUN /opt/elasticsearch/bin/plugin -v -i royrusso/elasticsearch-HQ
-RUN /opt/elasticsearch/bin/plugin -v -i lmenezes/elasticsearch-kopf
 
 VOLUME ["/data"]
 
