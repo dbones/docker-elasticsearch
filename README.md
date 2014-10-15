@@ -1,8 +1,16 @@
 docker-elasticsearch
 ====================
 
-Simple docker image for ElasticSearch
+Simple docker image for ElasticSearch.
+
 Uses ElasticSearch 1.3.4.
+
+Installs the following plugins:
+* head
+* kopf
+* elastic-HQ
+* marvel
+
 
 To run:
 
