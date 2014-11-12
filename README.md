@@ -19,6 +19,6 @@ To run:
 
     docker run -d -p 9200:9200 -p 9300:9300 my_es
 
-Puts data in /data, mount this for persistent data.
+Alternatively, mount /data for persistent data between restarts:
 
     docker run -d -p 9200:9200 -p 9300:9300 -v ~/elasticsearch:/data my_es
