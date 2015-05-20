@@ -4,7 +4,7 @@ docker-elasticsearch
 Simple docker image for ElasticSearch.
 
 Builds upon [dockerfile/elasticsearch](https://github.com/dockerfile/elasticsearch).
-Uses ElasticSearch 1.3.4.
+Uses ElasticSearch 1.5.2.
 
 Installs the following plugins:
 * head
